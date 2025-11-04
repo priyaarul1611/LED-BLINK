@@ -1,4 +1,4 @@
-# LED-BLINK
+
 # 💡 Experiment 01 – Interfacing a Digital Output (LED) with ARM Development Board
 
 ### 🎯 **Aim**
@@ -47,35 +47,34 @@ The **LPC2148**, developed by NXP Semiconductors (Philips), is a 16/32-bit ARM7-
  <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/45a2ab21-a2eb-419d-b2d4-90f0a6c40ca0" />
 
 3. Select the **target microcontroller** or board and click **Next**.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/f93d88b6-cd7f-49db-84de-351f9b116488" />
+   <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/8adb905d-1e3c-4b61-89c4-a9b84477d9f4" />
 
 
 
 4. Name the project.
-   <img width="533" height="588" alt="image" src="https://github.com/user-attachments/assets/63de2bab-69d4-4cb9-8db6-1b57adff9878" />
+  <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/9268ad6f-f3b9-4db9-8ceb-01849d1e9437" />
 
 5. The corresponding `.ioc` file will be generated automatically.
-  <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/8900847c-6745-43e2-9ecf-2e66877fdc49" />
+  <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/8fc74f28-c78e-4e28-b043-62d0890b76f3" />
 
 6. Configure the pins as **GPIO (Input/Output)**, **USART**, etc. as needed.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/acc4f1c4-5e33-431b-8a76-3b102016baa6" />
-<img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/b7abcd80-797d-451f-a7c3-23f303822423" />
+  <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/c535435b-3a8c-43b0-9127-d8d8d8cf815d" />
 
 7. Save the configuration (`Ctrl + S`) – the base C program will be generated automatically.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/dbf4b205-5db9-4e9b-8150-94f441c8b116" />
- 
+   <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/f7fb3446-cabd-44cb-a58c-50cee81c632e" />
+
 8. Edit the generated main program as required.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/05b39060-35d6-420d-9f4d-8721439bd82f" />
-<img width="1104" height="621" alt="image" src="https://github.com/user-attachments/assets/2ec55709-a45f-4e6e-8738-6aa94138eab1" />
+    <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/6ee24c9c-a78a-4cb5-91dc-ed50691487ff" />
 
 9. Click **Project → Build All**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/264cd0a8-3e96-4668-822e-838ecfafc527" />
+    <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/d9036a93-d97e-4342-8d3b-44c32c3afb5a" />
 
 10. Link the **HEX file** using the post-build process.
-    <img width="1053" height="465" alt="image" src="https://github.com/user-attachments/assets/478187a0-0ee6-4c50-9cac-c3b5ee18521b" />
+    <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/2dc3f89a-e279-4c74-bb99-c34612a02b5b" />
 
 11. Click **Debug** and connect the **STM Nucleo Board**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/f72fff44-6073-4ae4-aa78-0da455df9af1" />
+   
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/09e9ff2f-f1e0-4ddf-b8d8-1b7ac1ddd7ac" />
 
 13. Click **Run** to execute the program.
     
@@ -108,8 +107,11 @@ int main(void)
 ---
 ### OUTPUT
 CASE 1: LED ON 
+<img width="905" height="645" alt="image" src="https://github.com/user-attachments/assets/46a11d18-e3d2-45f5-bdfc-cea20d2174f6" />
+
 
 CASE 2: LED OFF
+<img width="889" height="626" alt="image" src="https://github.com/user-attachments/assets/01686da3-831e-4a7c-ab6c-18c62fd000c4" />
 
 ---
 ### RESULT
